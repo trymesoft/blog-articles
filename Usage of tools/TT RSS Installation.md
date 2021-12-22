@@ -28,7 +28,7 @@ services:
     image: sameersbn/postgresql:latest
     container_name: postgres
     environment:
-      - PG_PASSWORD=tt-rss # please change the password
+      - PG_PASSWORD=***
       - DB_EXTENSION=pg_trgm
     restart: always
 
